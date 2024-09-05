@@ -1,7 +1,7 @@
 import './SkillItem.css'
 
 const skillLogos = {
-  HTML5: './assets/Logos/html5.png',
+  HTML5: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYk594AhSKw5Eb3iHkPHs_XmpCqaRVgu0mvg&s',
   CSS3: './assets/Logos/css3.png',
   JavaScript: './assets/Logos/javascript.png',
   React: './assets/Logos/react.png',
