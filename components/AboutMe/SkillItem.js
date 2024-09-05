@@ -2,15 +2,15 @@ import './SkillItem.css'
 
 const skillLogos = {
   HTML5: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYk594AhSKw5Eb3iHkPHs_XmpCqaRVgu0mvg&s',
-  CSS3: './assets/Logos/css3.png',
-  JavaScript: './assets/Logos/javascript.png',
-  React: './assets/Logos/react.png',
-  'Node.js': './assets/Logos/nodejs.png',
-  'Express.js': './assets/Logos/expressjs.png',
-  MongoDB: './assets/Logos/mongodb.png',
-  'RESTful API': './assets/Logos/restfulapi.png',
-  Git: './assets/Logos/git.png',
-  'Frontend and Backend Development': '../Logos/fullstack.png'
+  CSS3: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',
+  JavaScript: 'https://static.vecteezy.com/system/resources/previews/027/127/463/original/javascript-logo-javascript-icon-transparent-free-png.png',
+  React: 'https://download.logo.wine/logo/React_(web_framework)/React_(web_framework)-Logo.wine.png',
+  'Node.js': 'https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png',
+  'Express.js': 'https://lh5.googleusercontent.com/proxy/KTMTgxEwIkK5PtvXhl3qRBO_BB797q_ixPFFLP4lLCImNbufF5V6bRvVbBMHSuQ8rF4IiMBjIOW539IuELV-Ir5X7ppI40BUOkd4ytO87v9gDRIgWsm_UXt84aMVd_6v8_pPt_ZACSm-km9RlQ',
+  MongoDB: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png',
+  'RESTful API': 'https://media.licdn.com/dms/image/D5612AQE0nEZrPGv0JA/article-cover_image-shrink_600_2000/0/1679583758253?e=2147483647&v=beta&t=Dsc4Ic96zrwm1z-mTY9m3-jFHCn9--kQBbU-5ga3k3E',
+  Git: 'https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png',
+  'Frontend and Backend Development': 'https://static.thenounproject.com/png/2230389-200.png'
 }
 
 const skillLogoSizes = {
