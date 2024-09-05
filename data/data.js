@@ -55,7 +55,7 @@ const data = {
       description:
         'Developed a Pinterest replica as my first Full Stack project, using HTML, CSS, JavaScript, and the Unsplash library for dynamic images.',
       link: 'https://ephemeral-gecko-0f6b5b.netlify.app/',
-      preview: './assets/imagenes/Replicarest.png',
+      preview: 'https://assets.turbologo.com/blog/es/2021/11/14091634/pinterest-958x575.png',
       technologies: ['React', 'Node.js', 'MongoDB', 'Stripe API']
     },
     {
