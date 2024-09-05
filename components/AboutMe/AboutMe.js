@@ -8,8 +8,8 @@ const template = () => `
   <section class="aboutme" id="aboutme">
     <h2>FULL STACK DEVELOPER</h2>
     ${ToggleImage({
-      image1: '/assets/imagenes/imagen1.jpg',
-      image2: '/assets/imagenes/imagen2.jpg',
+      image1: './assets/imagenes/imagen1.jpg',
+      image2: './assets/imagenes/imagen2.jpg',
       altText1: 'Avatar Image 1',
       altText2: 'Avatar Image 2'
     })}
