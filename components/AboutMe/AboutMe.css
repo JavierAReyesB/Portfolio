@@ -1,0 +1,97 @@
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.aboutme > img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.aboutme > img:hover {
+  transform: scale(1.05);
+}
+
+.aboutme > img.rotate {
+  animation: rotate 5s infinite linear;
+}
+
+.aboutme > p {
+  max-width: 700px;
+  text-align: center;
+  margin: 0;
+}
+
+.aboutme > ul {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aboutme li {
+  padding: 2px 8px;
+  border-radius: 1rem;
+  transition: background-color 0.3s;
+}
+
+.aboutme li:hover {
+  background-color: var(--background);
+}
+
+.aboutme a {
+  color: var(--heading);
+  text-decoration: none;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent);
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+}
+
+.aboutme a:hover {
+  background-color: var(--body);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutme {
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  .aboutme > img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .aboutme > p {
+    max-width: 90%;
+  }
+
+  .aboutme h2 {
+    text-align: center;
+  }
+}
+/* Estilos para pantallas de escritorio */
+@media (min-width: 992px) {
+  .aboutme h2 {
+    font-size: 36px; /* Ajuste más grande para escritorios */
+  }
+}

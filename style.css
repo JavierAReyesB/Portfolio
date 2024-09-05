@@ -1,0 +1,76 @@
+:root {
+  --background: #2e3440; /* Gris oscuro */
+  --heading: #d8dee9; /* Blanco roto */
+  --body: #87efab; /* Azul suave */
+  --accent: #25702f; /* Cian */
+  --link-hover: #025c14; /* Azul medio */
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background) url('/assets/images/fondo-mancha-acuarela.avif')
+    no-repeat center fixed;
+  background-size: cover;
+  color: var(--heading);
+  padding-top: 100px;
+  animation: moveBackground 30s infinite alternate;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+main {
+  scroll-behavior: smooth;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+main::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes moveBackground {
+  0% {
+    background-position: center top;
+  }
+  50% {
+    background-position: center center;
+  }
+  100% {
+    background-position: center bottom;
+  }
+}
+
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.4s;
+}
+
+a:hover {
+  color: var(--link-hover);
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  padding: 20px;
+}

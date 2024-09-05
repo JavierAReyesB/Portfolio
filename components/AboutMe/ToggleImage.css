@@ -1,0 +1,60 @@
+/* ToggleImage.css */
+
+.toggle-image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Aumenta el espacio entre las palabras y el contenedor */
+  gap: 40px; /* Ajusta según necesites para mayor separación */
+  margin: 40px 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--heading);
+  font-size: 1rem;
+}
+
+.text.left {
+  text-align: right;
+  margin-right: 300px; /* Añade margen derecho para separar más del contenedor */
+}
+
+.text.right {
+  text-align: left;
+  margin-left: 300px; /* Añade margen izquierdo para separar más del contenedor */
+}
+
+.toggle-image-container {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.5s ease;
+}
+
+.toggle-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: clip-path 0.4s ease;
+}
+
+.image-1 {
+  z-index: 1;
+  clip-path: inset(0 50% 0 0);
+}
+
+.image-2 {
+  z-index: 0;
+  clip-path: inset(0 0 0 50%);
+}

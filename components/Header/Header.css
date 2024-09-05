@@ -1,0 +1,131 @@
+header {
+  height: 80px;
+  padding: 0 2rem;
+  background-color: #2e3440;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.silver-text {
+  font-family: 'Satisfy', cursive;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveGradient 6s infinite linear;
+  flex: 1;
+  text-align: left;
+  margin: 0;
+  padding-left: 2px;
+  background-size: 200%;
+}
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navigation,
+.social-icons {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.navigation a,
+.social-icons a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s;
+  letter-spacing: 4px;
+}
+
+.navigation a:hover,
+.social-icons a:hover {
+  color: #025c14;
+}
+
+@media (max-width: 1018px) {
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 80px;
+    background-color: #2e3440;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-menu.active {
+    display: flex;
+  }
+
+  .navigation,
+  .social-icons {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+
+  .navigation a,
+  .social-icons a {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
