@@ -10,7 +10,7 @@ const skillLogos = {
   MongoDB: './assets/Logos/mongodb.png',
   'RESTful API': './assets/Logos/restfulapi.png',
   Git: './assets/Logos/git.png',
-  'Frontend and Backend Development': './portfolio/assets/Logos/fullstack.png'
+  'Frontend and Backend Development': 'assets/Logos/fullstack.png'
 }
 
 const skillLogoSizes = {
