@@ -8,8 +8,8 @@ const template = () => `
   <section class="aboutme" id="aboutme">
     <h2>FULL STACK DEVELOPER</h2>
     ${ToggleImage({
-      image1: 'assets/imagenes/imagen1.jpg',
-      image2: 'assets/imagenes/imagen2.jpg',
+      image1: 'https://www.creativefabrica.com/wp-content/uploads/2020/09/15/Matrix-Effect-Photoshop-Action-Graphics-5499939-2-580x435.jpg',
+      image2: 'https://www.creativefabrica.com/wp-content/uploads/2020/09/15/Matrix-Effect-Photoshop-Action-Graphics-5499939-1-1-580x435.jpg',
       altText1: 'Avatar Image 1',
       altText2: 'Avatar Image 2'
     })}
