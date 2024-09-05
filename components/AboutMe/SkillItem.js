@@ -1,16 +1,16 @@
 import './SkillItem.css'
 
 const skillLogos = {
-  HTML5: '/assets/Logos/html5.png',
-  CSS3: '/assets/Logos/css3.png',
-  JavaScript: '/assets/Logos/javascript.png',
-  React: '/assets/Logos/react.png',
-  'Node.js': '/assets/Logos/nodejs.png',
-  'Express.js': '/assets/Logos/expressjs.png',
-  MongoDB: '/assets/Logos/mongodb.png',
-  'RESTful API': '/assets/Logos/restfulapi.png',
-  Git: '/assets/Logos/git.png',
-  'Frontend and Backend Development': '/assets/Logos/fullstack.png'
+  HTML5: './assets/Logos/html5.png',
+  CSS3: './assets/Logos/css3.png',
+  JavaScript: './assets/Logos/javascript.png',
+  React: './assets/Logos/react.png',
+  'Node.js': './assets/Logos/nodejs.png',
+  'Express.js': './assets/Logos/expressjs.png',
+  MongoDB: './assets/Logos/mongodb.png',
+  'RESTful API': './assets/Logos/restfulapi.png',
+  Git: './assets/Logos/git.png',
+  'Frontend and Backend Development': './assets/Logos/fullstack.png'
 }
 
 const skillLogoSizes = {
